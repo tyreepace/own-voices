@@ -1,0 +1,93 @@
+
+/* Core Styles - Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Main Colors */
+.black { color: var(--main-black-color); }
+.black-1 { color: var(--main-black-shade-1-color); }
+.black-2 { color: var(--main-black-shade-2-color); }
+.black-3 { color: var(--main-black-shade-3-color); }
+.black-4 { color: var(--main-black-shade-4-color); }
+.black-5 { color: var(--main-black-shade-5-color); }
+.white { color: var(--main-white-color); }
+
+/* Accent Color */
+.purple { color: var(--accent-purple-color); }
+.purple-dk-1 { color: var(--accent-purple-dark-1-color); }
+.purple-dk-2 { color: var(--accent-purple-dark-2-color); }
+.purple-lt-1 { color: var(--accent-purple-light-1-color); }
+.purple-lt-2 { color: var(--accent-purple-light-2-color); }
+.purple-lt-3 { color: var(--accent-purple-light-3-color); }
+
+.red { color: var(--accent-red-color); }
+.red-dk-1 { color: var(--accent-red-dark-1-color); }
+.red-dk-2 { color: var(--accent-red-dark-2-color); }
+.red-lt-1 { color: var(--accent-red-light-1-color); }
+.red-lt-2 { color: var(--accent-red-light-2-color); }
+.red-lt-3 { color: var(--accent-red-light-3-color); }
+
+.green { color: var(--accent-green-color); }
+.green-dk-1 { color: var(--accent-green-dark-1-color); }
+.green-dk-2 { color: var(--accent-green-dark-2-color); }
+.green-lt-1 { color: var(--accent-green-light-1-color); }
+.green-lt-2 { color: var(--accent-green-light-2-color); }
+.green-lt-3 { color: var(--accent-green-light-3-color); }
+
+.blue { color: var(--accent-blue-color); }
+.blue-dk-1 { color: var(--accent-blue-dark-1-color); }
+.blue-dk-2 { color: var(--accent-blue-dark-2-color); }
+.blue-lt-1 { color: var(--accent-blue-light-1-color); }
+.blue-lt-2 { color: var(--accent-blue-light-2-color); }
+.blue-lt-3 { color: var(--accent-blue-light-3-color); }
+
+.orange { color: var(--orange-color); }
+
+/* Background Colors */
+
+/* Main Colors */
+.bg-black { background-color: var(--main-black-color); }
+.bg-black-1 { background-color: var(--main-black-shade-1-color); }
+.bg-black-2 { background-color: var(--main-black-shade-2-color); }
+.bg-black-3 { background-color: var(--main-black-shade-3-color); }
+.bg-black-4 { background-color: var(--main-black-shade-4-color); }
+.bg-black-5 { background-color: var(--main-black-shade-5-color); }
+.bg-dark { background-color: var(--main-black-shade-1-color); }
+.bg-gray { background-color: var(--main-black-shade-3-color); }
+.bg-lt-gray { background-color: var(--main-black-shade-4-color); }
+.bg-off-white { background-color: var(--off-white-color); }
+.bg-white { background-color: var(--main-white-color); }
+
+/* Accent Color */
+.bg-red-dk-2 { background-color: var(--accent-red-dark-2-color); }
+.bg-red-dk-1 { background-color: var(--accent-red-dark-1-color); }
+.bg-red { background-color: var(--accent-red-color); }
+.bg-red-lt-1 { background-color: var(--accent-red-light-1-color); }
+.bg-red-lt-2 { background-color: var(--accent-red-light-2-color); }
+.bg-red-lt-3 { background-color: var(--accent-red-light-3-color); }
+.bg-lt-red { background-color: var(--accent-red-light-3-color); }
+
+.bg-blue-dk-2 { background-color: var(--accent-blue-dark-2-color); }
+.bg-blue-dk-1 { background-color: var(--accent-blue-dark-1-color); }
+.bg-blue { background-color: var(--accent-blue-color); }
+.bg-blue-lt-1 { background-color: var(--accent-blue-light-1-color); }
+.bg-blue-lt-2 { background-color: var(--accent-blue-light-2-color); }
+.bg-blue-lt-3 { background-color: var(--accent-blue-light-3-color); }
+.bg-lt-blue { background-color: var(--accent-blue-light-3-color); }
+
+.bg-green-dk-2 { background-color: var(--accent-green-dark-2-color); }
+.bg-green-dk-1 { background-color: var(--accent-green-dark-1-color); }
+.bg-green { background-color: var(--accent-green-color); }
+.bg-green-lt-1 { background-color: var(--accent-green-light-1-color); }
+.bg-green-lt-2 { background-color: var(--accent-green-light-2-color); }
+.bg-green-lt-3 { background-color: var(--accent-green-light-3-color); }
+.bg-lt-green { background-color: var(--accent-green-light-3-color); }
+
+.bg-purple-dk-2 { background-color: var(--accent-purple-dark-2-color); }
+.bg-purple-dk-1 { background-color: var(--accent-purple-dark-1-color); }
+.bg-purple { background-color: var(--accent-purple-color); }
+.bg-purple-lt-1 { background-color: var(--accent-purple-light-1-color); }
+.bg-purple-lt-2 { background-color: var(--accent-purple-light-2-color); }
+.bg-purple-lt-3 { background-color: var(--accent-purple-light-3-color); }
+.bg-lt-purple { background-color: var(--accent-purple-light-3-color); }
+
+.bg-orange { background-color: var(--orange-color); }
