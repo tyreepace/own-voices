@@ -1,7 +1,55 @@
-.banner
-  width: 100%
-  display: block
-  margin: 0 15%
+html, body
+  height: 100%
+  margin: 0
 
-.main-content
-  margin: 0 15%
+body
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+
+  .banner
+    height: 300px
+    width: 100%
+    background:
+      image: url("/img/submissions_banner.jpg")
+      repeat: no-repeat
+      color: #262626
+      position: 50% 50%
+
+  main
+    flex: 1
+
+    .main-content
+      margin: 0 15%
+      padding-bottom: 50px
+
+    .center
+      text-align: center
+
+  .footer
+    background-color: #F1F1F1
+    text-align: center
+
+    ul
+      padding: 0
+      margin: 0
+
+    .layout-row.container
+      padding: 30px
+
+    .layout-row
+      padding: 0
+
+    .follow-text
+      padding-top: 0
+      padding-right: 20px
+
+    .follow-icons
+      padding-right: 20px
+      color: #1c1046
+
+    .footer-links
+      list-style: none
+      float: right
+      padding: 0
+      text-align: left

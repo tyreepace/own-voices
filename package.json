@@ -16,6 +16,10 @@
     "test": "ember test"
   },
   "devDependencies": {
+    "@fortawesome/ember-fontawesome": "^0.1.8",
+    "@fortawesome/free-brands-svg-icons": "^5.4.2",
+    "@fortawesome/free-regular-svg-icons": "^5.4.2",
+    "@fortawesome/free-solid-svg-icons": "^5.4.2",
     "broccoli-asset-rev": "^2.4.5",
     "broccoli-clean-css": "~1.1.0",
     "ember-ajax": "^3.0.0",

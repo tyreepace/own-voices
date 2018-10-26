@@ -11,6 +11,11 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 
+$space-1: 0.5rem;
+$space-2: 1rem;
+$space-3: 2rem;
+$space-4: 4rem;
+
 /* All custom properties should be included in this file, unless scoped to an element or class */
 :root {
 
@@ -112,12 +117,6 @@ $white: #fefefe;
   --button-big-padding-y: 1rem;
   --button-big-padding-x: 1.25rem;
   --button-narrow-padding-x: .5rem;
-
-  --space-1: 0.5rem;
-  --space-2: 1rem;
-  --space-3: 2rem;
-  --space-4: 4rem;
-
 
   /* Font properties */
 

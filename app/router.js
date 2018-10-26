@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('submissions');
   this.route('team');
   this.route('blog');
+  this.route('privacy');
 });
 
 export default Router;

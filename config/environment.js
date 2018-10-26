@@ -23,6 +23,13 @@ module.exports = function(environment) {
       // when it is created
     },
 
+    fontawesome: {
+      icons: {
+        'free-solid-svg-icons': 'all',
+        'free-brands-svg-icons': 'all'
+      }
+    },
+
     contentSecurityPolicy: {
       'default-src': "'none'",
       'script-src': "'self' 'unsafe-inline'",
