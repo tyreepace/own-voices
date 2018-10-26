@@ -1,29 +1,31 @@
 header
   display: block
+  width: 100%
 
 .header
-  background: grey
+  background: #E4E3EA
   padding-top: 20px
   padding-bottom: 20px
-  width: 100%
 
   .navbar
     display: flex
     align-items: center
-    margin-left: auto
-    margin-right: auto
     padding-left: 75px
     padding-right: 75px
 
+    &.flex-auto
+      flex: 1 1 auto
+      min-width: 0
+      min-height: 0
+      padding-left: var(--space-1)
+
     .header-logo
-      float: left
       img
         max-height: 105px
 
     .menu
       list-style: none
       display: flex
-      float: right
 
       .nav-item
         margin-right: 20px

@@ -1,7 +1,13 @@
 <div class="header">
   <div class="navbar">
-    <div class="header-logo">
-      <img src="../../img/logo_sm.png" />
+    {{#link-to 'home'}}
+      <div class="header-logo">
+        <img src="../../img/logo_sm.png" />
+      </div>
+    {{/link-to}}
+    <div class="navbar flex-auto">
+      <div id="navigation-zone">
+      </div>
     </div>
     <nav>
       <ul class="menu">
@@ -14,8 +20,5 @@
     </nav>
   </div>
 
-  <div class="navbar flex-auto">
-    <div id="navigation-zone">
-    </div>
-  </div>
+
 </div>
