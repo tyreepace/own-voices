@@ -2,10 +2,12 @@
 'use strict';
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const config = require('./config/environment')(process.env.EMBER_ENV);
+const fingerprintConfig = process.env.EMBER_ENV === 'development' ? {enabled: false} : {enabled: true,prepend: config.s3BuildEndpoint};
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
-    // Add options here
+    fingerprint: fingerprintConfig
   });
 
   // Use `app.import` to add additional libraries to the generated

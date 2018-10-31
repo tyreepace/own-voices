@@ -30,6 +30,8 @@ module.exports = function(environment) {
       }
     },
 
+    s3BuildEndpoint: ' https://ownvoices-bucket.s3.amazonaws.com/',
+
     contentSecurityPolicy: {
       'default-src': "'none'",
       'script-src': "'self' 'unsafe-inline'",
