@@ -39,13 +39,13 @@ module.exports = function(deployTarget) {
     ENV["redis"] = {
       host: '104.248.212.229',
       port: 6379,
-      password: 'ownv01c3sp@$$w0rd',
+      password: secret_password,
       keyPrefix: 'ownvoices-bucket'
     };
 
     ENV["s3"] = {
-      accessKeyId: 'AKIAIBCI4QHIPZ35767Q',
-      secretAccessKey: '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',
+      accessKeyId: ACCESS_ID,
+      secretAccessKey: ACCESS_KEY,
       bucket: 'ownvoices-bucket',
       region: 'us-west-1',
       filePattern: '**/*.{js,css,png,gif,ico,jpg,map,xml,txt,svg,swf,eot,ttf,woff,woff2,html}'
